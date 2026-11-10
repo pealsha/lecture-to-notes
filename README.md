@@ -19,11 +19,11 @@
 
 このリポジトリのURLをCodexへ渡し、次のように依頼します。
 
-> $skill-installer https://github.com/pealsha/lecture-to-notes の skills/lecture-to-notes をインストールして
+> $skill-installer https://github.com/pealsha/lecture-to-notes のリポジトリ直下を、lecture-to-notes という名前でインストールして
 
 ### ZIPから
 
-ZIPを展開し、中の `skills/lecture-to-notes` フォルダを、ユーザーのホームフォルダにある `.agents/skills/` へコピーします。
+ZIPを展開し、`SKILL.md` が直下にあるフォルダの名前を `lecture-to-notes` にして、ユーザーのホームフォルダにある `.agents/skills/` へコピーします。
 
 - Windows：`%USERPROFILE%\.agents\skills\lecture-to-notes\SKILL.md`
 - macOS/Linux：`~/.agents/skills/lecture-to-notes/SKILL.md`
